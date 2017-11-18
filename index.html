@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+	
+</head>
+<body>
+		<h1>CRYSTAL COLLECTOR</h1>
+
+
+	<!--Disclosing Instructions-->
+
+		<p id="instructions">
+			Match the random number!<br><br>Four crystals below contain a random value. Your sum continues to increase until you go over. Win by matching the random number.<br><br> The value of each crystal is random and changes with every match. Good Luck!
+		</p>
+
+	<!--Gif icon declaration-->
+
+				<div id="images">
+					<img src="amethyst.gif" id="amethyst" class="crystal">
+					<img src="diamond.gif" id="diamond" class="crystal">
+					<img src="yellow_diamond.gif" id="yellow_diamond" class="crystal">
+					<img src="emerald.gif" id="emerald" class="crystal">
+				</div>
+
+	<!--Scoreboard-->
+
+			<div id="numberText">
+				<div id="match">Match This #:<span id="randomNum"></span></div>
+
+				<div id ="yourScore">
+					<div>Your Score:<span id="player_score"></span></div>
+				</div>
+
+				<div id="scoreboard">
+
+					<div>Wins:<span id="wins"></span></div> 
+					<div>Losses:<span id="losses"></span></div>
+			
+				</div>
+			</div>
+
+
+
+
+	<audio autoplay loop>
+		<source src="Diamonds_remix.mp3" type="audio/mp3">
+	</audio>
+
+
+
+
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+	<script type="text/javascript" src="game.js"></script>
+
+</body>
+
+</html>

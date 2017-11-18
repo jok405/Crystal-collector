@@ -1,0 +1,116 @@
+h1 { 
+
+	background-image: url("stary_background.jpg");
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	font-family: "Kaushan Script", cursive;
+	text-align: center;
+	font-size: 70px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+
+
+
+}
+
+body {
+	background-image: url("1stary_background.jpg");
+	background-size: 100% 100%;
+
+	animation-name: stars;
+    animation-duration: 2s;
+    animation-iteration-count: 166;
+}
+
+@keyframes stars {
+
+	0% {background-image: url("1stary_background.jpg");}
+	25% {background-image: url("2stary_background.jpg");}
+	50% {background-image: url("3stary_background.jpg");}
+	75% {background-image: url("4stary_background.jpg");}
+	100% {background-image: url("stary_background.jpg");}
+
+}
+
+p {
+
+	font-family: "Kaushan Script", cursive;
+	color: white;
+	font-size: 35px;
+	text-align: center;
+
+
+
+}
+
+#randomNum {
+
+
+}
+
+#match {
+
+	font-family: "Kaushan Script", cursive;
+
+	font-size: 35px;
+	width: 300px;
+	height: 40px;
+	background-color: white;
+}
+
+#scoreboard {
+	
+	font-family: "Kaushan Script", cursive;
+
+	font-size: 35px;
+	height: 100px;
+	width: 300px;
+	text-align: left;
+	background-color: white;
+
+	
+}
+
+
+#yourScore {
+	
+	font-family: "Kaushan Script", cursive;
+	font-size: 35px;
+	display: block;
+	width: 300px;
+	background-color: white;
+	
+}
+
+
+.crystal {
+	width: 122px;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	align-content: center;
+
+
+
+}
+
+#images {
+    align-content: center;
+    align-items: center;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+    width: 60%;
+    display: block;
+    margin-top: 20px;
+
+}
+
+
+#numberText {
+
+	margin: auto;
+    width: 25%;
+    margin-top: 50px;
+}
